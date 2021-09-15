@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
         margin: 15,
         height: 150,
         borderRadius: 10,
-        overflow: 'hidden'
+        overflow: 'hidden',
+        elevation: 5,
     },
     container: {
         flex: 1,
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
         shadowColor: 'black',
         shadowOpacity: 0.6,
         shadowOffset: { width: 0, height: 2 },
-        elevation: 3,
+        shadowRadius: 10,
         padding: 15,
         justifyContent: 'flex-end',
         alignItems: 'flex-end'
